@@ -47,7 +47,7 @@ function App() {
     <div className="container">
       <Header />
       <main>
-        <div>
+        <div className="input-group">
           <h1>{userSearched}</h1>
           <form onSubmit={handleSubmitSearch}>
             <input
