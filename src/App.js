@@ -59,14 +59,17 @@ function App() {
             <button type="submit">Submit</button>
           </form>
         </div>
-        {countries?.map((country) => (
-          <CountryList
-            key={country.id}
-            country={country}
-            handleShowMore={handleShowMore}
-            showMore={showMore}
-          />
-        ))}
+        <div>
+          {" "}
+          {countries?.map((country) => (
+            <CountryList
+              key={country.id}
+              country={country}
+              handleShowMore={handleShowMore}
+              showMore={showMore}
+            />
+          ))}
+        </div>
       </main>
     </div>
   );
