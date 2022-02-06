@@ -17,3 +17,11 @@ header {
   font-size: 30px;
   padding-top: 15px;
 }
+@media screen and (min-width: 600px) {
+  body {
+    background: crimson;
+  }
+  header {
+    font-size: 60px;
+  }
+}
